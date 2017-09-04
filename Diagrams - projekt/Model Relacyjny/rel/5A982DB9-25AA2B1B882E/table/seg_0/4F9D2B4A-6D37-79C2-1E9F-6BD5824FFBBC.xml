@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F9D2B4A-6D37-79C2-1E9F-6BD5824FFBBC" schemaObject="68813848-C924-9800-77A6-CD19E294C96A" name="USERS">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="U_ID" id="6AD00B13-000C-1115-A5C9-AA1A06FF75F5">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_ID</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_NAZWA_UZYTKOWNIKA" id="D7FE146B-E9D8-C610-08D0-2521028A6C8E">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_NAZWA_UZYTKOWNIKA</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_P_ID" id="6FCD0D57-1A66-4D4E-19EA-05A25E431491">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_P_ID</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4738164C-7950-C871-7A15-90ADCFE40D2B" referredColumn="B51DF021-BBF2-A908-6111-DE1BB2879D16"/>
+</associations>
+</Column>
+<Column name="U_STATUS_REJESTRACJI" id="0A084678-DECD-7B87-F922-5567CF295AD5">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_STATUS_REJESTRACJI</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 BYTE</dataTypeSize>
+<ownDataTypeParameters>35 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_IMIE" id="E41BA092-6310-2C81-BE64-7148C73CF37E">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_IMIE</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_NAZWISKO" id="4A854C37-2641-36F3-BAC3-B86E5C0D59CD">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_NAZWISKO</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_TELEFON" id="83CA9975-E6C9-818F-1F87-D82DAB359424">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_TELEFON</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_ADRES" id="BE4B6582-0B71-174B-FD0B-F309410C6D8F">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_ADRES</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_EMAIL" id="1D601BFF-F295-E680-8325-FD586B4FDCA9">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_EMAIL</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="U_CZAS_BLOKADY" id="52F1C92B-B87C-FF59-1D5E-EE251E563678">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>U_CZAS_BLOKADY</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD97EE05-7953-9E69-CB8D-8C9EF745C728" name="USERS_PK">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>USERS_PK</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AD00B13-000C-1115-A5C9-AA1A06FF75F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="913469EE-30D6-DC69-B703-BC2E8517187B" schemaObject="68813848-C924-9800-77A6-CD19E294C96A" name="USERS_PK">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>USERS_PK</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AD00B13-000C-1115-A5C9-AA1A06FF75F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A54B6CE-DEDC-48E2-DC03-C89534041266" name="USERS_FK1">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:20 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FCD0D57-1A66-4D4E-19EA-05A25E431491"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ACTION" directorySegmentName="seg_0" id="AF6CEAF0-597C-FAEA-B6D5-5E4B94D5EE47">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<schemaObject>68813848-C924-9800-77A6-CD19E294C96A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1BC523F7-610B-DA1E-2D48-34234E75ADBD</segment>
+<tableSpace>8D004498-3E5B-91A4-40CA-B5561A7FA310</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="A_I_ID" id="3D6AC573-321A-5DB6-D7E7-E7E58EBE7159">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="A_ID" id="4D5182BB-0451-21CB-A1C8-AEBF24147FB9">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="A_NAZWA" id="4EE89506-9749-F93E-18B1-9E334D9EBB10">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="A_CZAS_AKCJI" id="507230DB-2EAA-3370-AE8D-51CB3CD02656">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="A_U_ID" id="A1A8AE34-853A-17E9-DB69-40C2575C5111">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACTION_PK" id="52FD7621-1E76-C4BD-99C1-184A5595F3B2">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<schemaObject>68813848-C924-9800-77A6-CD19E294C96A</schemaObject>
+<segment>02E1A10D-2C64-6B79-26A0-F645ED08839A</segment>
+<tableSpace>8D004498-3E5B-91A4-40CA-B5561A7FA310</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACTION_FK1" id="23724708-5C2B-19ED-5623-4C156709D644">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACTION_FK2" id="9F60DE07-A158-8859-369D-5B21C7963CD9">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACTION_PK" id="FB1A44D1-5038-BED1-3EA6-EAA7201C4861">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<segment>02E1A10D-2C64-6B79-26A0-F645ED08839A</segment>
+<tableSpace>8D004498-3E5B-91A4-40CA-B5561A7FA310</tableSpace>
+<existingIndex>52FD7621-1E76-C4BD-99C1-184A5595F3B2</existingIndex>
+<indexSegment>02E1A10D-2C64-6B79-26A0-F645ED08839A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

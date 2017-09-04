@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF6CEAF0-597C-FAEA-B6D5-5E4B94D5EE47" schemaObject="68813848-C924-9800-77A6-CD19E294C96A" name="ACTION">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>ACTION</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="A_NAZWA" id="4EE89506-9749-F93E-18B1-9E334D9EBB10">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>ACTION</sourceObjSchema>
+<sourceObjName>A_NAZWA</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="A_U_ID" id="A1A8AE34-853A-17E9-DB69-40C2575C5111">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>ACTION</sourceObjSchema>
+<sourceObjName>A_U_ID</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A6017BB-CED1-5BE9-FED9-7925BEF942AC" referredColumn="6AD00B13-000C-1115-A5C9-AA1A06FF75F5"/>
+</associations>
+</Column>
+<Column name="A_I_ID" id="3D6AC573-321A-5DB6-D7E7-E7E58EBE7159">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>ACTION</sourceObjSchema>
+<sourceObjName>A_I_ID</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F56474A0-1B8B-200F-03E0-241AA45F4615" referredColumn="C6E9D6A7-91F2-8E83-A57F-3765F3F33A37"/>
+</associations>
+</Column>
+<Column name="A_CZAS_AKCJI" id="507230DB-2EAA-3370-AE8D-51CB3CD02656">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>ACTION</sourceObjSchema>
+<sourceObjName>A_CZAS_AKCJI</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="A_ID" id="4D5182BB-0451-21CB-A1C8-AEBF24147FB9">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>ACTION</sourceObjSchema>
+<sourceObjName>A_ID</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB1A44D1-5038-BED1-3EA6-EAA7201C4861" name="ACTION_PK">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>ACTION_PK</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D5182BB-0451-21CB-A1C8-AEBF24147FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52FD7621-1E76-C4BD-99C1-184A5595F3B2" schemaObject="68813848-C924-9800-77A6-CD19E294C96A" name="ACTION_PK">
+<sourceConnName>Test</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>ACTION_PK</sourceObjName>
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D5182BB-0451-21CB-A1C8-AEBF24147FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23724708-5C2B-19ED-5623-4C156709D644" name="ACTION_FK1">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1A8AE34-853A-17E9-DB69-40C2575C5111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F60DE07-A158-8859-369D-5B21C7963CD9" name="ACTION_FK2">
+<createdBy>Wojtek</createdBy>
+<createdTime>2017-07-23 11:55:57 UTC</createdTime>
+<ownerDesignName>Model Relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D6AC573-321A-5DB6-D7E7-E7E58EBE7159"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
